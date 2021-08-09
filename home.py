@@ -37,4 +37,3 @@ def home():
     ,borderwidth=0,highlightthickness= 0,width=200,height=200,bg="#c6d6c5",image=img,activebackground="#c6d6c5").grid(row=2, column=2,padx=70,pady=10)
 
     root.mainloop()
-home()

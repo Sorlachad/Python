@@ -31,7 +31,7 @@ def humi():
                 hHumi.hours.append(b)
         # Or: file_path = os.path.join(absolute_path, 'folder', 'my_file.py')
         #Label(humi,text=value,fg="white",bg="#a1b0a0",width=10,height=5).grid(row=1,column=2,pady=50)
-    humi=Tk()
+    humi=Toplevel()
     humi.geometry("1024x600")
     humi.option_add("*Font","consolas 20")
     humi.config(bg="#c6d6c5")

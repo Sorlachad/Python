@@ -7,7 +7,7 @@ import matplotlib.dates as md
 humi=[]
 hours=[]
 def hHumi():
-    hHumi=Tk()
+    hHumi=Toplevel()
     hHumi.geometry("1024x600")
     hHumi.option_add("*Font","consolas 20")
     hHumi.config(bg="#c6d6c5")

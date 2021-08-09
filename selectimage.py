@@ -61,7 +61,7 @@ def simage():
     #"Mar"
     #]
     global b1
-    simage=Tk()
+    simage=Toplevel()
     simage.geometry("1024x600")
     simage.config(bg="#c6d6c5")
     simage.option_add("*Font","consolas 20")

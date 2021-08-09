@@ -7,7 +7,7 @@ import matplotlib.dates as md
 temps=[]
 hours=[]
 def htemp():
-    htemp=Tk()
+    htemp=Toplevel()
     htemp.geometry("1024x600")
     htemp.option_add("*Font","consolas 20")
     htemp.config(bg="#c6d6c5")
